@@ -6,7 +6,9 @@ Unlike the conclusions in that article, I find no difference in performance
 among the various implementations.
 
 Note that I removed the `time` and `*.printf` invocations as they get in the
-way of the benchmarking.
+way of the benchmarking. Note that this makes `declareReturnNameTypeWithFmt`
+identical to `declareReturnNameTypeWithLog`, so you can see the consistency in
+the benchmark measurements.
 
 Example output:
 
